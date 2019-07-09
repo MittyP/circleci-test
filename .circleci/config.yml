@@ -6,7 +6,10 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run:
-          name: npm install
+	  name: Change dir
+	  command: cd project
+      - run:
+          name: Install
           command: npm install
       - run: 
           name: Start!
