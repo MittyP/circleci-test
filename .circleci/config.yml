@@ -11,6 +11,9 @@ jobs:
       - run:
           name: Install
           command: npm install
+      - run:
+          name: check dir 2
+          command: ls
       - run: 
           name: Start!
           command: npm run start
