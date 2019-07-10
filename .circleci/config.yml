@@ -6,9 +6,6 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run:
-          name: SWITCH TO ACTUAL PROJECT FOLDER
-          command: cd project
-      - run:
           name: Print current
           command: pwd
       - run:
