@@ -6,20 +6,12 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run:
-          name: Print current
-          command: pwd
+            name: run unit tests
+            command: npm run test
       - run:
-          name: check dir
-          command: ls
+            name: run e2e tests
+            command: npm run test:e2e
       - run:
-          name: Install
-          command: npm install
-      - run:
-          name: Print current again
-          command: pwd
-      - run:
-          name: check dir 2
-          command: ls
-      - run: 
-          name: Start!
-          command: npm run start
+            name: run cov tests
+            command: npm run test:cov
+    
