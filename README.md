@@ -2,7 +2,7 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-CircleCI Build Status: [![CircleCI](https://circleci.com/gh/MittyP/circleci-test.svg?style=svg)](https://circleci.com/gh/MittyP/circleci-test)
+[![CircleCI](https://circleci.com/gh/MittyP/circleci-test.svg?style=shield)](https://circleci.com/gh/MittyP/circleci-test)
 ## Installation
 
 ```bash
