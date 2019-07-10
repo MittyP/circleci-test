@@ -9,6 +9,9 @@ jobs:
             name: run unit tests
             command: npm run test
       - run:
+            name: run unit tests
+            command: npm run test
+      - run:
             name: run e2e tests
             command: npm run test:e2e
       - run:
